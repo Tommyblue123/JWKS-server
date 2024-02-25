@@ -9,6 +9,7 @@ This project implements a basic JSON Web Key Set (JWKS) server using Flask, a Py
 - **JWKS Endpoint**: A RESTful endpoint that serves public keys in JWKS format.
 - **Authentication Endpoint**: Issues JWTs upon POST requests, supporting an optional `expired` query parameter to test JWT issuance with expired keys.
 
+
 ## Getting Started
 
 ### Prerequisites
@@ -46,14 +47,16 @@ This project implements a basic JSON Web Key Set (JWKS) server using Flask, a Py
  2. The server will start on http://localhost:8080. You can access the JWKS endpoint at http://localhost:8080/jwks and the authentication endpoint at http://localhost:8080/auth.
 
 
+
 ## Usage
 
 ### JWKS Endpoint
-  GET /jwks: Retrieves the current set of public keys in JWKS format.
+     GET /jwks: Retrieves the current set of public keys in JWKS format.
 
 ### Authentication Endpoint
-  POST /auth: Issues a JWT.
-  Optional query parameter: expired (set to true to issue a JWT signed with an expired key).
+     POST /auth: Issues a JWT.
+     Optional query parameter: expired (set to true to issue a JWT signed with an expired key).
+
 
 
   ## Testing
