@@ -23,8 +23,8 @@ This project implements a basic JSON Web Key Set (JWKS) server using Flask, a Py
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Tommyblue123/jwks-server.git
-   cd jwks-server
+   git clone https://github.com/Tommyblue123/JWKS-server.git
+   cd JWKS-server
 
 ### Create and activate a virtual environment:
  ```bash
