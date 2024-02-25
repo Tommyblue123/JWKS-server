@@ -26,16 +26,22 @@ This project implements a basic JSON Web Key Set (JWKS) server using Flask, a Py
    cd jwks-server
 
 ### Create and activate a virtual environment:
+ ```bash
   python -m venv venv
   source venv/bin/activate
+```
 
 ### Install the required packages:
+ ```bash
   pip install Flask PyJWT cryptography
+```
 
 
 ## Running the Server
  1. Start the server by running:
+   ```bash
     python app.py
+   ```
     
  2. The server will start on http://localhost:8080. You can access the JWKS endpoint at http://localhost:8080/jwks and the authentication endpoint at http://localhost:8080/auth.
 
@@ -53,4 +59,6 @@ This project implements a basic JSON Web Key Set (JWKS) server using Flask, a Py
   ## Testing
 
   To run the test suite and ensure the server behaves as expected:
+  ```bash
     python -m unittest discover
+```
