@@ -67,5 +67,14 @@ This project implements a basic JSON Web Key Set (JWKS) server using Flask, a Py
 ```
 
 
+ ##Screenshots
+
+ ### A screenshot of the test client running against my server:
 
 ![Screenshot (698)](https://github.com/Tommyblue123/JWKS-server/assets/98850127/38a302e6-31b3-4932-9c0c-5578b977d14d)
+
+
+### A screenshot of my test suite, showing the coverage percentage:
+
+![Screenshot (699)](https://github.com/Tommyblue123/JWKS-server/assets/98850127/6b2ac95c-b208-42f1-9fa0-e390890040f4)
+
